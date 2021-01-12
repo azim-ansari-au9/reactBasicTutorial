@@ -63,8 +63,8 @@
 // console.log((age >= 18) ? "you can vote":"Not able to vote");
 
 //Find the area of circle, tringle, and rectangle
-var area = 'triangle';
-var PI = 3.014, l=5, b=9, r=3;
+// var area = 'triangle';
+// var PI = 3.014, l=5, b=9, r=3;
 // if(area== "circle"){
 //     console.log("area of the circle is : "+ PI*r**2);
 // }else if(area == "traingle"){
@@ -85,3 +85,31 @@ var PI = 3.014, l=5, b=9, r=3;
 //     case 'rectangle':
 //         console.log("area of the rectangle is : "+ (l*b));
 // }
+
+//while loop statment
+// var num = 0;
+// while(num<=20){
+//     console.log(num);
+//     num++
+// }
+
+
+// Do while loop statment
+// var num = 30;
+// do{
+//     debugger;
+//     console.log(num);
+//     num++
+// }while(num<=20);
+
+//for loops
+// for(var num = 0; num<=10;num++){
+//     console.log(num)
+// }
+
+
+// \* Print table of 8 in javaScript using for loops*\
+for(n=0;n<=10;n++){
+    var tableOf = 8;
+    console.log(tableOf+"*"+n+"="+tableOf*n);
+}
