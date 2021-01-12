@@ -109,7 +109,43 @@
 
 
 // \* Print table of 8 in javaScript using for loops*\
-for(n=0;n<=10;n++){
-    var tableOf = 8;
-    console.log(tableOf+"*"+n+"="+tableOf*n);
-}
+// for(n=0;n<=10;n++){
+//     var tableOf = 8;
+//      console.log(tableOf+"*"+n+"="+tableOf*n);
+// }
+
+
+//Function Statement ==> to use again and again we use function
+// function sum(a,b){
+//     var c = a+b;
+//     console.log(c)
+// }
+// sum(10,50);
+
+
+// Function Expression//
+// function sum(a,b){
+//     var c = a+b;
+//     console.log(c)
+// }
+// var sumExp = sum(10,50); 
+// sumExp;
+
+
+// retun Statement //
+// function sum(a,b){
+//     return c = a+b;
+// }
+// var sumExp = sum(10,50); 
+// console.log('The sum of two number : '+ sumExp);
+
+
+////Anonymous Expression 
+// Anonymous Functoin 
+// var sumExp = function (a,b){
+//         return c = a+b;
+//     }
+//     // 
+// var sum = sumExp(10,50); 
+// console.log('The sum of two number is : '+ sum);
+////
