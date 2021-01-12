@@ -52,3 +52,36 @@
 
 ////Ternary operator
 // It is javaScript operator which deals with three operands
+// var age = 50
+// if(age >= 18){
+//     console.log("Able for voting")
+// }else{
+//     console.log('Not able for Voting')
+// }
+
+// var age = 10;
+// console.log((age >= 18) ? "you can vote":"Not able to vote");
+
+//Find the area of circle, tringle, and rectangle
+var area = 'triangle';
+var PI = 3.014, l=5, b=9, r=3;
+// if(area== "circle"){
+//     console.log("area of the circle is : "+ PI*r**2);
+// }else if(area == "traingle"){
+//     console.log("area of the traingle is : "+ (l*b)/2);
+// }else if(area == "rectangle"){
+//     console.log("area of the rectangle is : "+ (l*b));
+// }else{
+//     console.log('please enter valid data')
+// }
+
+// switch(area){
+//     case 'circle':
+//         console.log("area of the circle is : "+ PI*r**2);
+//     break;
+//     case 'triangle': 
+//         console.log("area of the traingle is : "+ (l*b)/2);
+//     break;
+//     case 'rectangle':
+//         console.log("area of the rectangle is : "+ (l*b));
+// }
