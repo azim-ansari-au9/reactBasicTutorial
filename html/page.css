@@ -1,0 +1,105 @@
+/*
+ways to include css => inline css, stylesheets (internal / external)
+css selectors
+*/
+
+h1 {
+  color: green;
+}
+
+#contact-h2 {
+  color: orange;
+}
+
+#gallery-h2 {
+  color: teal;
+}
+
+#bunny {
+  border-color: black;
+  height: 100px;
+  width: 100px;
+}
+
+.mammal {
+  border-color: red;
+}
+
+.bird {
+  border-color: blue;
+}
+
+.others {
+  border-color: green;
+}
+
+img {
+  border: 5px solid yellow;
+}
+
+#gallery {
+  white-space: nowrap;
+}
+
+#gallery > h2 {
+  color: magenta;
+}
+
+#contact h2 {
+  color: coral;
+}
+
+form + p { /* successor sibling */
+  background-color: maroon;
+}
+
+#gallery, #intro {
+  background-color: beige;
+}
+
+/* #intro {
+  background-color: beige;
+}
+
+#gallery {
+  background-color: lightblue;
+}
+
+table, tr, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+b {
+  color: red
+}
+
+#contact-span {
+  color: #ff0000;
+  background-color: blanchedalmond;
+}
+
+#para-span {
+  color: magenta;
+  background-color: aquamarine;
+} */
+
+
+/*
+Descendant "space"
+Immediate Child >
+Successor Sibling ~
+Immediate Successor Sibling +
+Independent Element ,
+*/
+
+body {
+  /* background-color: blue;
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; */
+
+  background: blue url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg') no-repeat fixed center /cover;
+}
