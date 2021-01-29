@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#gallery {
+  background-color: goldenrod;
+
+  /* white-space: nowrap;
+  overflow-x: auto; */
+
+  border: 10px solid goldenrod;
+
+  margin: 50px;
+}
+
+#gallery img {
+  margin: 10px;
+}
+
+.container {
+  /* font-size: 0; */
+  /* position: relative;
+  top: 0;
+  left: 0; */
+  background-color: beige;
+}
+
+.modified {
+  font-size: medium;
+  display: inline-block;
+  width: 33%;
+  margin: 0;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: justify;
+  /* border: 10px solid red; */
+  box-sizing: border-box;
+}
+
+/* static -> default,
+relative -> original position of the element,
+absolute -> closest ancestor with non-static position,
+fixed -> viewport */
+
+#left {
+  background-color: steelblue;
+}
+
+#center {
+  background-color: coral;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  /* z-index: -1; */
+}
+
+#right {
+  background-color: seagreen;
+}

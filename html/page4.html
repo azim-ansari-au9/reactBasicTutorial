@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="page4.css"/>
+</head>
+<body>
+  <div class="container">
+    
+    <div id="intro">
+      <h1>HTML elements</h1>
+      <a href="./page2.html">Go to PAGE2</a>
+      <table>
+        <thead>
+          <tr>
+            <th>Block</th>
+            <th>Inline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>p</td>
+            <td>a</td>
+          </tr>
+          <tr>
+            <td>div</td>
+            <td>img</td>
+          </tr>
+          <tr>
+            <td>hr</td>
+            <td>br</td>
+          </tr>
+          <tr>
+            <td>hr</td>
+            <td>br</td>
+          </tr>
+          <tr>
+            <td>table</td>
+            <td>span</td>
+          </tr>
+          <tr>
+            <td>form</td>
+            <td>input</td>
+          </tr>
+          <tr>
+            <td>ul, ol, li</td>
+            <td>textarea</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-center">Contact Us</h2>
+    <div class="row" id="contact">
+      <div class="col-sm-4">
+        <h4>Address</h4>
+        <p>
+          <span id="para-span">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. <b><u>Dolores</u></b> <i>fugiat</i> ratione <u>labore</u> voluptates omnis. Itaque, recusandae ipsa. Natus at, repellendus magnam dolorem ipsa sed quam qui hic error, quia voluptatum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi atque laudantium omnis, voluptatibus, ratione laborum unde dignissimos debitis, doloribus illo possimus vero! Facilis impedit, quo doloremque ipsam sed quam inventore.
+        </p>
+      </div>
+
+      <div class="col-sm-4">
+        <h4>Email</h4>
+        <p>
+          <span id="para-span">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. <b><u>Dolores</u></b> <i>fugiat</i> ratione <u>labore</u> voluptates omnis. Itaque, recusandae ipsa. Natus at, repellendus magnam dolorem ipsa sed quam qui hic error, quia voluptatum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi atque laudantium omnis, voluptatibus, ratione laborum unde dignissimos debitis, doloribus illo possimus vero! Facilis impedit, quo doloremque ipsam sed quam inventore.
+        </p>
+      </div>
+
+      <div class="col-sm-4">
+        <h4>Fill a form</h4>
+        <form>
+
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="Full name" />
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="email" placeholder="Email address" />
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="password" placeholder="Password" />
+          </div>
+    
+          <label><input type="radio" value="male" name="gender"/>Male</label>
+          <label><input type="radio" value="female" name="gender"/>Female</label><br/>
+    
+          <label><input type="radio" value="single" name="marital"/>Single</label>
+          <label><input type="radio" value="married" name="marital"/>Married</label><br/>
+    
+          <div class="form-check">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" value="html" name="skills"/>HTML</label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" value="css" name="skills"/>CSS</label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" value="js" name="skills"/>JavaScript</label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" value="jquery" name="skills"/>jQuery</label>
+          </div>
+    
+          <div class="form-group">
+            <select class="form-control">
+              <option selected="true" disabled="true">-- Select planet where you live --</option>
+              <option value="1">Mercury</option>
+              <option value="2">Venus</option>
+              <option value="3">Earth</option>
+              <option value="4">Mars</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <textarea class="form-control" rows="5" maxlength="10" placeholder="Your feedback"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit Form</button>
+        </form>
+      </div>
+    </div>
+  
+    <div id="gallery">
+      <h2>Gallery</h2>
+      <img class="mammal" src="https://news.artnet.com/app/news-upload/2018/02/image-256x256.jpg"/>
+      <img class="mammal" src="https://avatarfiles.alphacoders.com/124/124420.jpg"/>
+      <img class="others" src="https://pbs.twimg.com/profile_images/650284675810881536/Qa72GPv4.jpg"/>
+      <img class="mammal" id="bunny" src="https://cdn140.picsart.com/290938239017201.jpg?type=webp&to=crop&r=256"/>
+      <img class="bird" src="https://pbs.twimg.com/profile_images/378800000163683055/52f45cbdb5366f7a8706dfa7a8ea98f6.jpeg"/>
+      <img class="others" src="https://b3h2.scene7.com/is/image/BedBathandBeyond/2020-05-26-15-29_QM1887611_2_imageset?$imagePLP$&wid=256&hei=256"/>
+    </div>
+
+  </div>
+</body>
+</html>
