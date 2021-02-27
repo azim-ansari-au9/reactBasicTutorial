@@ -1,0 +1,14 @@
+::::::::::::::::::Question::::::::::::::::::
+: What is ARP ? Explain in brief :
+
+
+:::::::::::::::::Answer:::::::::::::::::::::
+
+ARP full name is Address Resolution Protocol. 
+It is an network protocol which is used for the mapping of an IP adress  to a computer which is connected to a local network. Through ARP we can find the mac address if we have already having IP adress. When user want to send some data then ARp packet is used for develring things.there is resson behand it that ip address can be change but we cant change the mac address.
+e.g
+if Host A want to send data to Host B and doesn't know mac address of 
+Host B ,to find mac address HostB, Host A send ARP request into network. 
+And network has IP address of Host B . 
+After that Host B read the data and Respond to network And Connected to Host A . 
+After that mechanism full fill and transfer the data. 

@@ -1,0 +1,9 @@
+::::::::::::Question:::::::::
+Consistent Hashing in brief
+
+:::::::::::::Answer:::::::::::
+it is a strategy for deviding up data between multiple machines.
+
+it makes usefull trick for the system desine Question involving large, and the distributed database,whichever is having many machines .
+
+mapping a key to the machine responsible for storing the value.

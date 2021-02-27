@@ -1,0 +1,12 @@
+::::::::::::::Question::::::::::::::
+What is NAT ? Explain in brief
+
+::::::::::::::Answer::::::::::::::::
+NAT full name is Network Address Translation. NAT is Used for share multiple devices to a single Public IP address. This technique is used in router all over the world.
+It hepls to connect the private and public network together.
+In other words it is used for networks that connect to the network. Even we can use NAT for privat network .
+NAT is very secure because it hides the network from the internet.
+
+let's talk about how its work -
+if any organisation have 10 computer and there are 10 private ip address for the computers.if organisation want to communicate with public server then we have to send the request as public server.for the sending private to public we need router to make the public ip of that private ip.
+after that it process to main server which have public ip address then it returns the coresponding private address.

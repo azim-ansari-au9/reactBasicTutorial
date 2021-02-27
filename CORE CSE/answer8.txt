@@ -1,0 +1,14 @@
+:::::::::::::::::Question:::::::::::
+: Explain what happens when you type
+www.attainu.com in the web browser :
+
+:::::::::::::::::Answer:::::::::::::
+
+When we type any text in browser, then it takes as an input and send 
+the request to find DNS,
+after sending it recieves request in the browser section. then show the result .
+if in case not found any request then it shows not found on browser side, 
+behind this there a mechanism to find the similar record.
+here some brief:
+  when we type any url inside browser then browser takes input and then browser send the data  to internet server and internet send to the main server 
+  and then it send back to the result in browser server .

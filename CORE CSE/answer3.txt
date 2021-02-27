@@ -1,0 +1,19 @@
+::::::::::::::Question::::::::::::::
+What is Private IP Address
+
+::::::::::::::Answer::::::::::::::::
+Every device has unique IP address. Let's assume if i have multiple devices and it is connected to router.After connecting all devices we created a local network for all the device then it is known as private netork and the ip address of that all the devices is known as private ip address.
+
+private ip address can't connect with internet .for access the internet we always need public ip address.
+
+private ip addresses have range.
+
+private ip address is used to communicate inside the network.
+
+private ip address format  differ in uniform manner.
+
+private ip address is local network operator.
+
+
+
+

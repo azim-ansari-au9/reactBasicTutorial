@@ -1,0 +1,16 @@
+:::::::::::::::::Question:::::::::::
+: Explain all the layers TCP/IP model with example
+
+
+:::::::::::::::::Answer:::::::::::::
+TCP/IP has four layer:
+
+1.application layer:- A mail request is made the apllication designated the correct port to indicate the serveice being requested.
+
+2.transport layer:- the data is segemented and broken down into packets. A tcp header is attachedd and it passed to the next level(network level).
+
+3.network layer:- IP header with the reciepent IP Address is attached and the data is dend to the correct network.
+
+4.local access layer:- finally the data arrives which is converted to a transmiitable format and sent within the network to the device .
+
+

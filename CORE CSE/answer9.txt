@@ -1,0 +1,18 @@
+:::::::::::::::::Question:::::::::::
+What is Context Switching ? Explain in brief
+
+:::::::::::::::::Answer:::::::::::::
+When we browse on operating system then it saves the state of the active process and restores the state of new process,the whole mechanism is known as Context Switching.
+
+in other words we can say stopping and restarting another server is known as Context Switching.
+
+it has some action in sequence.
+
+-Operating system takes control.
+
+-Saves old Context.
+
+-Reload new Context from the new process.
+
+-returns control to the app program.
+

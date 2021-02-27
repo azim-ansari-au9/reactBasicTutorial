@@ -1,0 +1,12 @@
+:::::::::::::::Question:::::::::::::
+: Explain Swap Memor :
+
+:::::::::::::::Answer ::::::::::::::
+Swap memory is virtual memory system.
+swapping the process whereby a page of memory is copied to the preconfigured space on the hard disc to free up that page of memory.
+
+it size is very less because it is the size of combination of physical memories.
+
+it uses disc space as an extension of main memory.
+
+it is desined for the provide the best throghput for virtual memory system.

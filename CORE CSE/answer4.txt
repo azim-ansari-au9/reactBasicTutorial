@@ -1,0 +1,8 @@
+:::::::::::::::::Question::::::::::::::::::::
+Explain conditions for Deadlock
+
+:::::::::::::::::Answer::::::::::::::::::::::
+Deadlock is a problem that mean it is blocking something.
+It arrise due to when two or more process sharing the same resource are effectively preventing the accessing the resources each other.
+
+
